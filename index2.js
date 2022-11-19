@@ -65,14 +65,14 @@ function removesub() {
   maniform.remove();
 }
 
-// const reports = [];
+
 document.querySelector("#getgrade1").addEventListener("click", sgpacalculator);
 
 function sgpacalculator() {
   const RESULTB = document.getElementById("resultsgpa");
   const GRADESEL = document.querySelectorAll('select[name="grade"]'); // changed selector (attribute selector)
   const UNIT = document.querySelectorAll('input[name="cred"]'); // changed selector (attribute selector)
-  // const subReports = {};
+ 
   const listofunits = [];
   const listofgrades = [];
 

@@ -47,7 +47,7 @@ function addNewSubject() {
 
   </select>
   </td>
-        <td><input style="padding:15px; border-radius: 18px; border-color: #ffffff; width:80px; " type="number"  class="credit-unit-get-${count}" name="cred" step="0.5" min="1" max="10" required></td>
+        <td><input style="padding:15px; border-radius: 18px; border-color: #ffffff; width:80px; " type="number"  class="credit-unit-get-${count}" name="cred" step="0.5" min="1" max="10" placeholder="credits" required></td>
       </tr> 
     </table>
     </form>

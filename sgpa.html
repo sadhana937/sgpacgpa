@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SGPA Calculator</title>
+ 
+  <!-- <style >
+    body {
+         background: linear-gradient(to top right, #cc99ff 0%, #003399 100%);
+         height:600px;
+    }
+    .sgpa{
+          margin-left: 450px;
+          margin-right: 400px;
+          text-align: center;
+
+    }
+
+    .head1{
+         text-align: center;
+         font-size: 30px;
+         font-family: "Times New Roman", Times, serif;
+    }
+  </style> -->
+ 
+<link rel="stylesheet" href="style.css">
+
+   </head>
+  <body>
+<p class="head1">SGPA CALCULATOR</p>
+ <div class="block">
+     <div class="sgpa1">
+
+
+    <label for="subjects" id="sub-code">SUBJECTS &nbsp;</label>
+    <label for="sub-grade" id="sub-grade">GRADES &nbsp;</label>
+    <label for="sub-unit" id="sub-code">CREDITS &nbsp;</label>
+      <br>
+        <!-- <th >Subjects</th>
+        <th>Grade</th>
+        <th>credits</th> -->
+      
+    <table style="margin-left: 450px">
+      <tr>
+            <td  style="font-size:24px">Subject:</td>
+            <td><select style="padding:15px; border-radius: 18px; border-color: #ffffff; width:150px;" id="grade" value="grade" name="grade" placeholder="grade" required>
+      <option value="NULL" class="grade">select</option> 
+      <option value="S" class="grade">S</option>
+      <option value="A" class="grade">A</option>
+      <option value="B" class="grade">B</option>
+      <option value="C" class="grade">C</option>
+      <option value="D" class="grade">D</option>
+      <option value="E" class="grade">E</option>
+      <option value="F" class="grade">F</option>
+    
+    </select>
+      </td>                    
+      <!-- add name attribute -->
+      <td><input style="padding:15px; border-radius: 18px; border-color: #ffffff; width:80px;" type="number" name="cred" class="cred" value="cred" placeholder="credit" min="1" max="10" step="0.5" required></td>
+        
+          </tr> 
+        </table>
+        
+          </div><br>
+     <div class="button1">
+      <button class="addsub" id="addsub1">Add </button>
+      <button class="delsub" id="delsub1">Delete </button>
+      <button class="getgrade" id="getgrade1">Calculate</button>
+     </div>
+     <div class="ressgpa">
+      <p id="resultsgpa"></p>
+     </div>
+    <script src="index2.js"></script>
+ </div>
+  </body>
+</html>
+

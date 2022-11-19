@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CGPA Calculator</title>
+  
+  <!-- <style>
+  body {
+       background: linear-gradient(to top right, #cc99ff 0%, #003399 100%);
+       height:600px;
+  }
+  .cgpa{
+        margin-left: 450px;
+        margin-right: 400px;
+
+  }
+
+  .head{
+       text-align: center;
+       font-size: 30px;
+       font-family: "Times New Roman", Times, serif;
+
+  }
+  .head11{
+       text-align: center;
+       font-size: 30px;
+       font-family: "Times New Roman", Times, serif;
+       
+
+  }
+  </style> -->
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <p class="head">CGPA CALCULATOR</p>
+    <div class="head11">
+    <div= class="cgpa1">
+   <label for="semesters" id="sem-code">SEMESTERS &nbsp;    </label>
+   <label for="sem-sgpa" id="sem-sgpa">SGPA  &nbsp;   </label>
+   <label for="sem-unit" id="sem-code">CREDITS   &nbsp;   </label>
+          <br>
+
+
+   <table style="margin-left: 400px">
+  
+  <tr>
+     <td style="font-size:24px">Semester:</td>
+      <td ><input style="padding:15px; border-radius: 18px; border-color: #ffffff; width:150px" class="semsgpa" type="number" name="SGPA" value="SGPA" placeholder="SGPA" min="0" required>
+ </td>
+       <td><input style="padding:15px; border-radius: 18px; border-color: #ffffff; width:80px;" class="semcred "type="number" name="credit" value="credit" min="1" step="0.5" placeholder="credits" required></td>
+     </tr>
+   </table>
+</div><br><br>
+<div class="button2">
+  <button class="addsem" id="addsem1">Add</button>
+  <button class="delsem" id="delsem1">Delete</button>
+  <button class="getgrade00" id="getgrade01">Calculate</button>
+ </div>
+ <div class="rescgpa">
+  <p id="resultcgpa"></p>
+ </div>
+    <script src="index.js"></script>
+</div>
+  </body>
+</html>
